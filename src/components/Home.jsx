@@ -69,13 +69,13 @@ function Home() {
           Happy birthday, <em>my love</em>
         </h1>
         <ul className="home-links">
-          <a href="/notes">
+          <a href="/Birthday-18/notes">
             <li>View Notes</li>
           </a>
-          <a href="/pics">
+          <a href="/Birthday-18/pics">
             <li>View Pictures</li>
           </a>
-          <a href="/scenarios">
+          <a href="/Birthday-18/scenarios">
             <li>View Scenarios</li>
           </a>
         </ul>
