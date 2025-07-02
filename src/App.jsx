@@ -7,7 +7,7 @@ import Scenarios from "./components/Scenarios";
 
 function App() {
   return (
-    <Router basename="/Birthday-18">
+    <Router basename="/Birthday-18/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/notes" element={<Notes />} />
