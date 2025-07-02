@@ -1,0 +1,106 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #212121;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  color: black;
+}
+
+.popup-content {
+  position: relative;
+  margin: 20px;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 90%;
+  width: 400px;
+  text-align: center;
+  box-shadow: #f7374eb8 0px 5px 15px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #888;
+  transition: color 0.2s ease;
+  color: black;
+}
+
+.close-button:hover {
+  color: #00000070;
+}
+
+.popup-sections {
+  text-align: left;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 100%;
+}
+
+.home-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.home-links li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  box-shadow: #522546b9 0px 7px 29px 0px;
+  border: #000 solid 1px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  background-color: #f7374e;
+  cursor: pointer;
+}
+
+.home-links a {
+  text-decoration: none;
+  color: black;
+}
+.home-links li:hover {
+  background-color: #c53344;
+  color: white;
+}

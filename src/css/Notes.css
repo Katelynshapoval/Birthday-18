@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.notes-container {
+  width: 80%;
+  height: 350px;
+  max-width: 600px;
+  margin: 2rem auto;
+  color: black;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  background-color: #fff0f5;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: rgba(184, 11, 124, 0.35) 0px 5px 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-note {
+  font-size: 1.25rem;
+  height: 40%;
+  width: 90%;
+  padding: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Animation classes */
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.carousel-controls button {
+  background-color: #522546;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin: 10px 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.carousel-controls button:hover {
+  background-color: #ff85c1;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #522546;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
