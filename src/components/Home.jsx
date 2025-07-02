@@ -69,7 +69,6 @@ function Home() {
         <h1>
           Happy birthday, <em>my love</em>
         </h1>
-        import {Link} from "react-router-dom";
         <ul className="home-links">
           <li>
             <Link to="/notes">View Notes</Link>
