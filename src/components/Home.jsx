@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "../css/Home.css"; // Make sure to add the styles below or inline
 import { IoMdClose } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 function Home() {
   const [showPopup, setShowPopup] = useState(true);
