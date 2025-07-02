@@ -97,7 +97,7 @@ body {
   color: white;
 }
 
-h1 {
+.home-container h1 {
   font-size: 3rem;
   margin-bottom: 10px;
   text-align: center;
